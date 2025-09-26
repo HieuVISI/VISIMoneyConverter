@@ -49,7 +49,7 @@ with col2:
 
 if st.button("Chuyển đổi"):
     if from_currency == to_currency:
-        st.info("🔄 Hai loại tiền giống nhau, kết quả = số tiền gốc")
+        st.info("Hai loại tiền giống nhau, kết quả = số tiền gốc")
     else:
         rate = fetch_exchange_rate(from_currency, to_currency)
         if rate:
